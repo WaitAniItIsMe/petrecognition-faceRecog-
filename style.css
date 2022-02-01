@@ -1,0 +1,12 @@
+canvas{
+    animation-name: monitor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes monitor{
+    from{box-shadow: 1px 2px 38px cyan;}
+    to{box-shadow: 1px 2px 38px red;}
+} 
+
+.btn-success:hover{background-color: red;}
